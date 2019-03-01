@@ -1,0 +1,85 @@
+.info{
+    moz-user-select: -moz-none; 
+    -o-user-select:none; 
+    -khtml-user-select:none; 
+    -webkit-user-select:none; 
+    -ms-user-select:none; 
+    user-select:none;
+    width: 100%;
+    -moz-user-select: none; 
+    .infoUl{
+        width: 100px;
+        height: 560px;
+        border-right: 1px solid #3c3c3c;
+        // display: inline-block;
+        float: left;
+        .infoList{
+            width: 100%;
+            height: 25px;
+            line-height: 25px;
+            text-align: center;
+            background: green;
+            a{
+            color: #3c3c3c;
+            }
+            .active{
+                width: 100%;
+                background: red;
+                color: #fff
+            }
+        }
+    }
+    .Right{
+        width: 500px;
+        text-align: center;
+        margin: 0 auto;
+        ul{
+         width: 500px;
+         height: 100%;
+         li{
+             height: 30px;
+             line-height: 30px;
+             margin-bottom: 10px;
+             background: pink;
+            span{
+                color: red
+            } 
+            input{
+                width: 80px;
+            } 
+            .modiy,button{
+                float: right;
+                margin-right: 20px;
+                background: yellow;
+                width: 70px;
+                height: 25px;
+                border-radius: 5px;
+                margin-top: 2.5px;
+                font-size: 16px;
+                line-height: 24px;
+                font-weight: 500;
+                transition: all .2s linear;
+                border:0;
+                background-color:none
+            }  
+            button:hover{
+                background: red;  
+                color: #fff; 
+                cursor:pointer;
+                border-radius: 5px;
+                border: 0;
+            } 
+            .modiy{
+                background: green;
+            }        
+            .modiy::hover{
+                background: yellow;
+                color: #fff;
+                cursor: pointer;
+                border-radius: 5px;
+                border: 0;
+            }
+         }
+        }
+    }
+}

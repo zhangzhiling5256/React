@@ -1,0 +1,85 @@
+.info {
+  moz-user-select: -moz-none;
+  -o-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: 100%;
+  -moz-user-select: none;
+}
+.info .infoUl {
+  width: 100px;
+  height: 560px;
+  border-right: 1px solid #3c3c3c;
+  float: left;
+}
+.info .infoUl .infoList {
+  width: 100%;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+  background: green;
+}
+.info .infoUl .infoList a {
+  color: #3c3c3c;
+}
+.info .infoUl .infoList .active {
+  width: 100%;
+  background: red;
+  color: #fff;
+}
+.info .Right {
+  width: 500px;
+  text-align: center;
+  margin: 0 auto;
+}
+.info .Right ul {
+  width: 500px;
+  height: 100%;
+}
+.info .Right ul li {
+  height: 30px;
+  line-height: 30px;
+  margin-bottom: 10px;
+  background: pink;
+}
+.info .Right ul li span {
+  color: red;
+}
+.info .Right ul li input {
+  width: 80px;
+}
+.info .Right ul li .modiy,
+.info .Right ul li button {
+  float: right;
+  margin-right: 20px;
+  background: yellow;
+  width: 70px;
+  height: 25px;
+  border-radius: 5px;
+  margin-top: 2.5px;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  transition: all .2s linear;
+  border: 0;
+  background-color: none;
+}
+.info .Right ul li button:hover {
+  background: red;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 0;
+}
+.info .Right ul li .modiy {
+  background: green;
+}
+.info .Right ul li .modiy::hover {
+  background: yellow;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 0;
+}
